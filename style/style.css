@@ -100,7 +100,7 @@ body {
 }
 
 /* efective solution with button  */
-.section1 {
+.segments1 {
   height: 600px;
   text-align: center;
   background-image: url(https://github.com/KarolMajch/goit-markup-hw-04/blob/main/images/desk.jpg?raw=true);
@@ -139,7 +139,7 @@ body {
 .block-lorem {
   margin-right: 30px;
 }
-.section2 .list-style {
+.segments2 .list-style {
   display: flex;
 }
 .post-title {
@@ -179,12 +179,12 @@ body {
   max-width: 362;
   margin-bottom: 50px;
 }
-.section3 {
+.segments3 {
   margin-top: 94px;
   margin-bottom: 94px;
 }
 
-.section3 .list-style {
+.segments3 .list-style {
   display: flex;
   margin-top: 50px;
   justify-content: space-around;
@@ -208,11 +208,11 @@ body {
   max-width: 212px;
 }
 
-.section4 .list-style {
+.segments4 .list-style {
   display: flex;
 }
 
-.section4 {
+.segments4 {
   background-color: #F5F4FA;
   padding-bottom: 94px;
 }
@@ -251,7 +251,7 @@ body {
 }
 
 /* custemers  */
-.section5 {
+.segments5 {
 display: flex;
 width: 1170px;
 height: 252px;
@@ -278,12 +278,8 @@ margin-right: auto;
   list-style: none;
   margin: 0 auto;
   max-width: 572px;
-  margin-top: 94px;
   margin-bottom: 50px;
-  justify-content: center;
-}
-
-.section6 .social-button {
+  justify-content: center; 
   display: flex;
 }
 
@@ -324,18 +320,14 @@ margin-right: auto;
 
 /* tab portfolio - 9 project */
 
-.section7 .list-style {
+.segments6 {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
   padding: 0px;
-}
-
-.section7 {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 94px;
 }
 
 .photo {
