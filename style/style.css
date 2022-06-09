@@ -37,6 +37,12 @@ body {
   padding: 0 15px;
   margin: 0 auto;
 }
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  justify-content: center;
+  align-items: center;
+}
 
 /*   heeder */
 .header {
@@ -132,7 +138,6 @@ body {
   cursor: pointer;
   border-radius: 4px;
   padding: 10px 40px;
-  margin-bottom: 200px;
 }
 
 /*  post in main website */
@@ -150,7 +155,6 @@ body {
   text-align: left;
   list-style: none;
   padding-right: 30px;
-  margin-top: 94px;
 }
 
 .post-lorem {
@@ -179,10 +183,6 @@ body {
   max-width: 362;
   margin-bottom: 50px;
 }
-.segments3 {
-  margin-top: 94px;
-  margin-bottom: 94px;
-}
 
 .segments3 .list-style {
   display: flex;
@@ -200,7 +200,6 @@ body {
   color: var(--brand-color);
   letter-spacing: 0.03em;
   font-weight: 700;
-  padding-top: 94px;
   padding-bottom: 50px;
   padding-left: auto;
   padding-right: auto;
@@ -214,7 +213,6 @@ body {
 
 .segments4 {
   background-color: #F5F4FA;
-  padding-bottom: 94px;
 }
 
 .our-team {
@@ -269,8 +267,6 @@ margin-right: auto;
   padding-top:  94px;
   line-height: 1.17;
 }
-
-
 
 /* tab porfolio - order buttons  */
 
