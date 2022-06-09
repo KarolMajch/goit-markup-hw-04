@@ -84,7 +84,14 @@ body {
   cursor: pointer;
   text-decoration: none;
   color: #757575;
-  padding-right: 25px;
+}
+
+.header-mail {
+  padding-right: 50px;
+}
+
+.header-phone {
+  padding-right: 12px;
 }
 
 .header .header-phone {
