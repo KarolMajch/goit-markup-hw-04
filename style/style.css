@@ -143,6 +143,9 @@ body {
 /*  post in main website */
 .block-lorem {
   margin-right: 30px;
+} 
+.segments2{
+  padding-bottom: 0px;
 }
 .segments2 .list-style {
   display: flex;
