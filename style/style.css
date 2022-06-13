@@ -427,6 +427,7 @@ padding-top: 50px;
   padding: 60px 0;
   list-style-type: none;
   display: flex;
+  gap:30px;
 }
 
 .footer-logo {
@@ -486,6 +487,10 @@ padding-bottom: 20px;
 .footer-icon {
   display: flex;
   gap: 5px;
+}
+.social{ 
+  padding-top: 30px;
+  padding-left: 70px;
 }
 
 /* the remaining css  */
