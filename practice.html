@@ -2,53 +2,44 @@
 <html lang="en">
 
 <head>
-
-    <section class="segments4 section">
+    <header class="header">
         <div class="container">
-          <h2 class="title4">Nasz zespół</h2>
-          <ul class="list-style">
+          <!--logo i linki -->
+          <nav class="navigation">
+            <a class="header-logo" href="index.html"><span>Web</span>Studio </a>
+            <ul class="list-style adress">
+              <li class="list-link">
+                <a class="link" target="" rel="noreferrer noopener" href="">Agencja</a>
+              </li>
+              <li class="list-link">
+                <a class="link" target="" rel="noreferrer noopener" href="./portfolio.html">Portfolio</a>
+              </li>
+              <li class="list-link">
+                <a class="link" target="" rel="noreferrer noopener" href="/">Kontakt</a>
+              </li>
+            </ul>
+          </nav>
+          <ul class="list-style adress">
             <li>
-              <figure class="our-team">
-                <img
-                  src="https://raw.githubusercontent.com/KarolMajch/goit-markup-hw-01/main/images/osoba%20product%20(1).jpg"
-                  alt="men product designer" width="270" height="260" />
-                <figcaption>
-                  <h4 class="personal-date">John Doe</h4>
-                  <p class="job-position">Product Designer</p>
-                  <ul class="list-style social-links">
-                    <li class="team-item">
-                      <a class="team-link" href="">
-                        <svg class="social-logo" width="44" height="44">
-                          <use href="./images/icons.svg/icon.svg#instagram"></use>
-                        </svg>
-                      </a>
-                    </li>
-                    <li class="team-item">
-                      <a class="team-link" href="">
-                        <svg class="social-logo" width="44" height="44">
-                          <use href="./images/icons.svg/icon.svg#twitter"></use>
-                        </svg>
-                      </a>
-                    </li>
-                    <li class="team-item">
-                      <a class="team-link" href="">
-                        <svg class="social-logo" width="44" height="44">
-                          <use href="./images/icons.svg/icon.svg#fb"></use>
-                        </svg>
-                      </a>
-                    </li>
-                    <li class="team-item">
-                      <a class="team-link" href="">
-                        <svg class="social-logo" width="44" height="44">
-                          <use href="./images/icons.svg/icon.svg#linkedin"></use>
-                        </svg>
-                      </a>
-                    </li>
-                  </ul>
-                </figcaption>
-              </figure>
+              <svg class="header-icon" width="16" height="12">
+                <use href="./images/icons.svg/icon.svg#mail"></use>
+              </svg>
+              <a class="header-mail" href="info@devstudio.com">info@devstudio.com</a>
             </li>
             <li>
-  
+              <svg class="header-icon" width="10" height="16">
+                <use href="./images/icons.svg/icon.svg#smartphone"></use>
+              </svg>
+              <a class="header-phone" href="+48 111 111 111">+48 111 111 111</a>
+            </li>
+          </ul>
+        </div>
+      </header>
 </head>
 </html>
+
+.header-icon:hover::before {
+    color: green;
+} 
+
+url(https://github.com/KarolMajch/goit-markup-hw-04/blob/main/images/desk.jpg?raw=true)

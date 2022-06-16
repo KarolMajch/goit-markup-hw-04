@@ -120,13 +120,14 @@ body {
 .segments1 {
   height: 600px;
   text-align: center;
-  background-image: url(https://github.com/KarolMajch/goit-markup-hw-04/blob/main/images/desk.jpg?raw=true);
-  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(https://github.com/KarolMajch/goit-markup-hw-04/blob/main/images/desk.jpg?raw=true);
   background-size: 1600px 600px;
+  background-repeat: no-repeat;
   background-position: center;
+  justify-content: center;
   display: flex;
+  align-items: center;
 }
-
 
 .title1 {
   color: white;
@@ -136,6 +137,7 @@ body {
   padding-bottom: 30px;
   margin: 0 auto;
   max-width: 696px;
+
 }
 
 .button-order {
