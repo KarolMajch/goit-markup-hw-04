@@ -476,6 +476,11 @@ fill: #2196f3;
   gap: 30px;
 }
 
+.footer-item {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .footer-logo {
   font-family: Raleway;
   font-style: normal;
@@ -502,8 +507,10 @@ fill: #2196f3;
 
 .footer-mail,
 .footer-phone {
-  color: rgba(255, 255, 255, 0.6);
+  color:rgba(255, 255, 255, 0.6);
   text-decoration: none;
+  padding-bottom: 8px;
+
 }
 
 .footer-mail:hover,
@@ -527,7 +534,7 @@ fill: #2196f3;
 }
 
 .social {
-  padding-top: 30px;
+  padding-left: 70px;
   flex-wrap: wrap;
 }
 
