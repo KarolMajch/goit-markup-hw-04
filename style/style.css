@@ -301,10 +301,9 @@ body {
   padding-top: 50px;
 }
 
-
 .customers-item:hover,
 .customers-item:focus {
-  background-color: #2196f3;
+ background-color: #2196f3;
  cursor: pointer;
 }
 
