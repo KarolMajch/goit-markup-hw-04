@@ -276,7 +276,9 @@ body {
   height: 44px;
   border-radius: 50%;
   justify-content: center;
-  align-items: center;
+  fill:#ffffff;
+  background-color: #ffffff;
+
 }
 
 .team-link:hover,
