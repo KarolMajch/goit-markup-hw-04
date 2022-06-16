@@ -274,6 +274,11 @@ body {
   fill: #ffffff;
 }
 
+.team-link:hover,
+.team-link:focus {
+  background-color: var(--background-color);
+}
+
 
 /* custemers  */
 .segments5 {
