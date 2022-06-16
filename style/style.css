@@ -275,15 +275,13 @@ body {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: white;
   justify-content: center;
   align-items: center;
-  fill: #FFFFFF;
 }
 
 .team-link:hover,
 .team-link:focus {
-  background-color: #2196f3;
+ fill: #2196f3;
 }
 
 /* custemers  */
