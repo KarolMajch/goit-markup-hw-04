@@ -263,6 +263,13 @@ body {
   padding-bottom: 16px;
 }
 
+.team-item{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
 .team-link {
   display: flex;
   width: 44px;
@@ -271,14 +278,13 @@ body {
   background-color: white;
   justify-content: center;
   align-items: center;
-  fill: #ffffff;
+  fill: #FFFFFF;
 }
 
 .team-link:hover,
 .team-link:focus {
-  background-color: var(--background-color);
+  background-color: #2196f3;
 }
-
 
 /* custemers  */
 .segments5 {
