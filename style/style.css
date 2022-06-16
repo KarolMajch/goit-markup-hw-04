@@ -105,6 +105,11 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+.header-icon:hover {
+cursor: pointer;
+fill: #2196f3;
+}
+
 
 /* efective solution with button  */
 .segments1 {
@@ -319,7 +324,7 @@ body {
 
 .customers-item:hover,
 .customers-item:focus {
- background-color: #2196f3;
+ fill: #2196f3;
  cursor: pointer;
 }
 
