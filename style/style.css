@@ -37,6 +37,7 @@ body {
   padding: 0 15px;
   margin: 0 auto;
 }
+
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -143,10 +144,12 @@ body {
 /*  post in main website */
 .block-lorem {
   margin-right: 30px;
-} 
-.segments2{
+}
+
+.segments2 {
   padding-bottom: 0px;
 }
+
 .segments2 .list-style {
   display: flex;
 }
@@ -179,9 +182,9 @@ body {
   letter-spacing: 0.03em;
   text-align: justify;
 }
- 
 
- /* section what we do  */
+
+/* section what we do  */
 .title3 {
   height: 42px;
   text-align: center;
@@ -233,9 +236,9 @@ body {
   border-radius: 4px;
   background-color: #ffffff;
   margin-right: 30px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
-  0px 1px 1px rgba(0, 0, 0, 0.14),
-  0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .our-team:first-child {
@@ -260,21 +263,23 @@ body {
   padding-bottom: 16px;
 }
 
-.social-list-item { 
-  gap: 10px;
-  padding-bottom: 30px;
+.team-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  fill: #ffffff;
 }
 
-.social-logo:hover,
-.social-logo:focus{
-  fill:#FFFFFF
-}
 
 /* custemers  */
 .segments5 {
-display: flex;
-margin-left: auto;
-margin-right: auto;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .title5 {
@@ -288,14 +293,21 @@ margin-right: auto;
   display: flex;
   justify-content: center;
 }
-.customers{
-display: flex;
-align-items: center;
-justify-content: space-around;
-padding-top: 50px;
+
+.customers {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 50px;
 }
 
-.logo { 
+
+.customers-item:hover,
+.customers-item:focus {
+  background-color: #2196f3
+}
+
+.logo {
   width: 170px;
   height: 92px;
   border-radius: 4px;
@@ -309,7 +321,7 @@ padding-top: 50px;
   margin: 0 auto;
   max-width: 572px;
   margin-bottom: 50px;
-  justify-content: center; 
+  justify-content: center;
   display: flex;
 }
 
@@ -333,8 +345,8 @@ padding-top: 50px;
   cursor: pointer;
   color: #ffffff;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
-  0px 1px 2px rgba(0, 0, 0, 0.08),
-  0px 2px 2px rgba(0, 0, 0, 0.12);
+    0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .button {
@@ -365,11 +377,11 @@ padding-top: 50px;
   align-content: center;
 }
 
-.photo:hover{
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 
-  0px 4px 4px rgba(0, 0, 0, 0.06),
-   1px 4px 6px rgba(0, 0, 0, 0.16);
-   cursor: pointer;
+.photo:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+    0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
 }
 
 .photo-name {
@@ -394,17 +406,19 @@ padding-top: 50px;
   padding: 0px 24px 20px;
   line-height: 2;
 }
+
 .signature {
   border-bottom: 1px solid #EEEEEE;
   border-right: 1px solid #EEEEEE;
   border-left: 1px solid #EEEEEE;
 }
+
 .list-style .photo {
   list-style: none;
   margin: 0px;
 }
 
- /* footer style  */
+/* footer style  */
 
 .list-style .address {
   list-style: none;
@@ -427,7 +441,7 @@ padding-top: 50px;
   padding: 60px 0;
   list-style-type: none;
   display: flex;
-  gap:30px;
+  gap: 30px;
 }
 
 .footer-logo {
@@ -469,39 +483,42 @@ padding-top: 50px;
   background-color: var(--background-color);
 }
 
-.join-us{ 
+.join-us {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-font-size: 14px;
-font-weight: 700;
-line-height: 1.17;
-letter-spacing: 0.03em;
-color: #FFFFFF;
-text-transform: uppercase;
-padding-bottom: 20px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  padding-bottom: 20px;
 }
 
-.social{ 
+.social {
   padding-top: 30px;
- flex-wrap: wrap;
+  flex-wrap: wrap;
 }
+
 .social-item {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   gap: 10px;
 }
-.social-link{
+
+.social-link {
   display: flex;
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: rgba(255,255,255,0.1);
+  background-color: rgba(255, 255, 255, 0.1);
   justify-content: center;
   align-items: center;
   fill: #ffffff;
 }
+
 .social-link:hover,
-.social-link:focus{
+.social-link:focus {
   background-color: #2196f3;
 }
 
