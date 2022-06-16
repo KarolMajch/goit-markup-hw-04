@@ -500,7 +500,8 @@ padding-bottom: 20px;
   align-items: center;
   fill: #ffffff;
 }
-.social-link:hover{
+.social-link:hover,
+.social-link:focus{
   background-color: #2196f3;
 }
 
