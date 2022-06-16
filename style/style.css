@@ -105,10 +105,12 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
 .header-icon:hover {
-cursor: pointer;
-fill: #2196f3;
+  cursor: pointer;
+  fill: #2196f3;
 }
+
 .header-icon {
   fill: #757575;
 }
@@ -271,7 +273,7 @@ fill: #2196f3;
   padding-bottom: 16px;
 }
 
-.team-item{
+.team-item {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -285,9 +287,10 @@ fill: #2196f3;
   border-radius: 50%;
   justify-content: center;
   align-items: center;
-  fill:#AFB1B8;
+  fill: #AFB1B8;
   background-color: rgba(255, 255, 255, 0.1);
 }
+
 .social-logo {
   align-items: center;
   justify-content: center;
@@ -295,8 +298,8 @@ fill: #2196f3;
 
 .team-link:hover,
 .team-link:focus {
- fill:#FFFFFF;
- background-color: #2196f3;
+  fill: #FFFFFF;
+  background-color: #2196f3;
 }
 
 /* custemers  */
@@ -324,14 +327,16 @@ fill: #2196f3;
   justify-content: space-around;
   padding-top: 50px;
 }
-.customers-item{
+
+.customers-item {
   width: 170px;
   height: 92px;
   border-radius: 4px;
   border: 1px solid #AFB1B8;
-  fill:#757575;
+  fill: #757575;
   justify-content: space-around;
 }
+
 .customers-item:hover,
 .customers-item:focus {
   border-color: #2196f3;
@@ -341,6 +346,7 @@ fill: #2196f3;
 .logo {
   fill: #AFB1B8
 }
+
 .logo:hover,
 .logo:focus {
   fill: #2196f3;
@@ -507,7 +513,7 @@ fill: #2196f3;
 
 .footer-mail,
 .footer-phone {
-  color:rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   padding-bottom: 8px;
 
