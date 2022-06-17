@@ -76,10 +76,14 @@ body {
 }
 
 .link:hover,
-.header-phone:hover,
-.header-mail:hover,
 .link:focus {
   color: var(--background-color);
+}
+
+.header-phone:hover,
+.header-mail:hover {
+  color: var(--background-color);
+  fill: var(--background-color);
 }
 
 .list-link:not(:last-child) {
@@ -105,16 +109,6 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-
-.header-icon:hover {
-  cursor: pointer;
-  fill: #2196f3;
-}
-
-.header-icon {
-  fill: #757575;
-}
-
 
 /* efective solution with button  */
 .segments1 {
