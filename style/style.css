@@ -481,6 +481,7 @@ body {
 .footer-item {
   display: flex;
   flex-wrap: wrap;
+  align-items: baseline;
 }
 
 .footer-logo {
